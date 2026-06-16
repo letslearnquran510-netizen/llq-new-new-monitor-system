@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "LLQA monitoring server (runs on the Hostinger VPS): heartbeat ingest, machine registry, on-demand recording relay. Dashboard served separately.",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "express": "^4.22.2"
+  },
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=18.15"
+  }
+}
